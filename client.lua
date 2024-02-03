@@ -44,7 +44,7 @@ function makeJob()
 					rot = vec3(rot.x - math.random(60,100), rot.y, rot.z)
 					SetEntityRotation(Props[#Props], rot.x, rot.y, rot.z, 0, 0)
 					Targets[name] =
-						exports['qb-target']:AddCircleZone(name, vec3(coords.x, coords.y, coords.z), 1.2, { name=name, debugPoly=Config.Debug, useZ=true, },
+						exports['qb-target']:AddCircleZone(name, vec3(coords.x, coords.y, coords.z), 1.5, { name=name, debugPoly=Config.Debug, useZ=true, },
 						{ options = {
 							{ event = "jim-mining:MineOre:Pick", icon = "fas fa-hammer", item = "pickaxe", label = Loc[Config.Lan].info["mine_ore"].." ("..QBCore.Shared.Items["pickaxe"].label..")", job = loc.Job, name = name, stone = Props[#Props] },
 							{ event = "jim-mining:MineOre:Drill", icon = "fas fa-screwdriver", item = "miningdrill", label = Loc[Config.Lan].info["mine_ore"].." ("..QBCore.Shared.Items["miningdrill"].label..")", job = loc.Job, name = name, stone = Props[#Props] },
