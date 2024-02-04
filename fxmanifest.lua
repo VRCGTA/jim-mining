@@ -5,7 +5,7 @@ description "Mining Script By Jimathy"
 fx_version "cerulean"
 game "gta5"
 
-shared_scripts { 'config.lua', 'shared/*.lua', 'locales/*.lua', '@jim_bridge/functions.lua' }
+shared_scripts { 'config.lua', 'shared/*.lua', 'locales/*.lua' }
 server_script { 'server.lua' }
 client_scripts { 'client.lua' }
 dependency 'jim_bridge'

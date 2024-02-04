@@ -69,7 +69,7 @@ Config.Locations = {
         },
     },
     ["Smelting"] = {
-        -- { name = "Foundary", coords = vec3(1112.29, -2009.9, 31.46), sprite = 436, col = 1, blipTrue = false, },
+        { name = "Foundary", coords = vec3(1112.29, -2009.9, 31.46), sprite = 436, col = 1, blipTrue = false, },
     },
 
     ["Mines"] = {
