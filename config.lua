@@ -41,12 +41,12 @@ Config = {
 	},
 
 	WashPool = {	-- Rewards from washing stone
-		-- "goldore",
+		"goldore",
 		"uncut_ruby",
 		"uncut_emerald",
-		-- "uncut_diamond",
+		"uncut_diamond",
 		"uncut_sapphire",
-		-- "goldore",
+		"goldore",
 	},
 
 	PanPool = {		-- Rewards from panning
@@ -163,7 +163,7 @@ Crafting = {
 		-- { ["iron"] = { ["ironore"] = 1 } },
 		-- { ["steel"] = { ["ironore"] = 1, ["carbon"] = 1 } },
 		-- { ["aluminum"] = { ["can"] = 2, }, ['amount'] = 3 },
-		-- { ["glass"] = { ["bottle"] = 2, }, ['amount'] = 2 },
+		-- { ["plastic"] = { ["bottle"] = 2, }, ['amount'] = 2 },
 	},
 	GemCut = {
 		{ ["emerald"] = { ["uncut_emerald"] = 1, } },
