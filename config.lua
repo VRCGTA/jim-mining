@@ -134,12 +134,12 @@ Config = {
 	Items = {
 		label = "Mining Store",  slots = 9,
 		items = {
-			{ name = "weapon_flashlight", price = 200, amount = 100, info = {}, type = "item", slot = 1, },
-			{ name = "goldpan", price = 100, amount = 100, info = {}, type = "item", slot = 2, },
-			{ name = "pickaxe",	price = 50, amount = 100, info = {}, type = "item", slot = 3, },
-			{ name = "miningdrill",	price = 100000, amount = 50, info = {}, type = "item", slot = 4, },
-			{ name = "mininglaser",	price = 300000, amount = 5, info = {}, type = "item", slot = 5, },
-			{ name = "drillbit", price = 10, amount = 100, info = {}, type = "item", slot = 6, },
+			{ name = "weapon_flashlight", price = 3000, amount = 100, info = {}, type = "item", slot = 1, },
+			{ name = "goldpan", price = 3000, amount = 100, info = {}, type = "item", slot = 2, },
+			{ name = "pickaxe",	price = 1000, amount = 100, info = {}, type = "item", slot = 3, },
+			{ name = "miningdrill",	price = 50000, amount = 50, info = {}, type = "item", slot = 4, },
+			{ name = "mininglaser",	price = 100000, amount = 5, info = {}, type = "item", slot = 5, },
+			{ name = "drillbit", price = 100, amount = 100, info = {}, type = "item", slot = 6, },
 		},
 	},
 }
