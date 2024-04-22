@@ -5,7 +5,7 @@ RegisterServerEvent('jim-mining:Crafting:GetItem', function(ItemMake, craftable)
 	if craftable then
 		if craftable["amount"] then amount = craftable["amount"] end
 		for k, v in pairs(craftable[ItemMake]) do
-			print(k, v)
+			-- print(k, v)
 			TriggerEvent("jim-mining:server:toggleItem", false, tostring(k), v, src)
 		end
 	end

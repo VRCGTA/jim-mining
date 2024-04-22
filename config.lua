@@ -161,7 +161,7 @@ Crafting = {
 	RingCut = {
 		-- { ["gold_ring"] = { ["goldingot"] = 1 }, ['amount'] = 3 },
 		-- { ["silver_ring"] = { ["silveringot"] = 1 }, ['amount'] = 3 },
-		-- { ["diamond_ring"] = { ["gold_ring"] = 1, ["diamond"] = 1 }, },
+		{ ["diamond_ring"] = { ["gold_ring"] = 1, ["diamond"] = 1 }, },
 		-- { ["emerald_ring"] = { ["gold_ring"] = 1, ["emerald"] = 1 }, },
 		-- { ["ruby_ring"] = { ["gold_ring"] = 1, ["ruby"] = 1 }, },
 		-- { ["sapphire_ring"] = { ["gold_ring"] = 1, ["sapphire"] = 1 }, },
