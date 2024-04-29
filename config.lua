@@ -6,7 +6,7 @@ Config = {
 	Debug = false, -- enable debug mode
 	img = "qb-inventory/html/images/", --Set this to the image directory of your inventory script or "nil" if using newer qb-menu
 
-	Lan = "en", -- Pick your language here
+	Lan = "ja", -- Pick your language here
 
 	JimShops = false, 		-- Set this to true if using jim-shops
 
@@ -73,7 +73,6 @@ Config = {
 		"silverore",
 		"carbon",
 	},
-
 	SellingPrices = { -- Selling Prices
 		['copperore'] = 10,
 		['goldore'] = 1000,
@@ -94,39 +93,38 @@ Config = {
 		['diamond'] = 1000,
 		['sapphire'] = 200,
 
-		-- ['diamond_ring'] = 100,
-		-- ['emerald_ring'] = 100,
-		-- ['ruby_ring'] = 100,
-		-- ['sapphire_ring'] = 100,
-		-- ['diamond_ring_silver'] = 100,
-		-- ['emerald_ring_silver'] = 100,
-		-- ['ruby_ring_silver'] = 100,
-		-- ['sapphire_ring_silver'] = 100,
+		['emerald_ring'] = 6000,
+		['ruby_ring'] = 50000,
+		['sapphire_ring'] = 10000,
+		['diamond_ring_silver'] = 1000000,
+		['emerald_ring_silver'] = 1,
+		['ruby_ring_silver'] = 1,
+		['sapphire_ring_silver'] = 1,
 
-		-- ['diamond_necklace'] = 100,
-		-- ['emerald_necklace'] = 100,
-		-- ['ruby_necklace'] = 100,
-		-- ['sapphire_necklace'] = 100,
-		-- ['diamond_necklace_silver'] = 100,
-		-- ['emerald_necklace_silver'] = 100,
-		-- ['ruby_necklace_silver'] = 100,
-		-- ['sapphire_necklace_silver'] = 100,
+		['diamond_necklace'] = 1,
+		['emerald_necklace'] = 1,
+		['ruby_necklace'] = 1,
+		['sapphire_necklace'] = 1,
+		['diamond_necklace_silver'] = 1,
+		['emerald_necklace_silver'] = 1,
+		['ruby_necklace_silver'] = 1,
+		['sapphire_necklace_silver'] = 1,
 
-		-- ['diamond_earring'] = 100,
-		-- ['emerald_earring'] = 100,
-		-- ['ruby_earring'] = 100,
-		-- ['sapphire_earring'] = 100,
-		-- ['diamond_earring_silver'] = 100,
-		-- ['emerald_earring_silver'] = 100,
-		-- ['ruby_earring_silver'] = 100,
-		-- ['sapphire_earring_silver'] = 100,
+		['diamond_earring'] = 1,
+		['emerald_earring'] = 1,
+		['ruby_earring'] = 1,
+		['sapphire_earring'] = 1,
+		['diamond_earring_silver'] = 1,
+		['emerald_earring_silver'] = 1,
+		['ruby_earring_silver'] = 1,
+		['sapphire_earring_silver'] = 1,
 
-		-- ['gold_ring'] = 100,
-		-- ['goldchain'] = 100,
-		-- ['goldearring'] = 100,
-		-- ['silver_ring'] = 100,
-		-- ['silverchain'] = 100,
-		-- ['silverearring'] = 100,
+		['gold_ring'] = 1,
+		['goldchain'] = 1,
+		['goldearring'] = 1,
+		['silver_ring'] = 1,
+		['silverchain'] = 1,
+		['silverearring'] = 1,
 
 	},
 ------------------------------------------------------------
@@ -161,12 +159,12 @@ Crafting = {
 	RingCut = {
 		-- { ["gold_ring"] = { ["goldingot"] = 1 }, ['amount'] = 3 },
 		-- { ["silver_ring"] = { ["silveringot"] = 1 }, ['amount'] = 3 },
-		{ ["diamond_ring"] = { ["gold_ring"] = 1, ["diamond"] = 1 }, },
-		-- { ["emerald_ring"] = { ["gold_ring"] = 1, ["emerald"] = 1 }, },
-		-- { ["ruby_ring"] = { ["gold_ring"] = 1, ["ruby"] = 1 }, },
-		-- { ["sapphire_ring"] = { ["gold_ring"] = 1, ["sapphire"] = 1 }, },
+		-- { ["diamond_ring"] = { ["gold_ring"] = 1, ["diamond"] = 1 }, },
+		{ ["emerald_ring"] = { ["silveringot"] = 1, ["emerald"] = 10 }, },
+		{ ["ruby_ring"] = { ["goldingot"] = 2, ["ruby"] = 25 }, },
+		{ ["sapphire_ring"] = { ["silveringot"] = 1, ["sapphire"] = 25 }, },
 
-		-- { ["diamond_ring_silver"] = { ["silver_ring"] = 1, ["diamond"] = 1 }, },
+		{ ["diamond_ring_silver"] = { ["silveringot"] = 100, ["diamond"] =  500}, },
 		-- { ["emerald_ring_silver"] = { ["silver_ring"] = 1, ["emerald"] = 1 }, },
 		-- { ["ruby_ring_silver"] = { ["silver_ring"] = 1, ["ruby"] = 1 }, },
 		-- { ["sapphire_ring_silver"] = { ["silver_ring"] = 1, ["sapphire"] = 1 }, },
